@@ -13,9 +13,25 @@ int main(int argc, char const *argv[]) {
 
   imc = peso / (altura*altura);
 
-  printf("\nSeu IMC é: %.2f \n\n", imc);
+  printf("\nSeu IMC é: %.2f \n", imc);
+
+  if (imc<17) {
+    printf("Está MUITO ABAIXO do peso | Magreza Preocupante.\n\n");
+  } else if (imc<=18.49) {
+    printf("Está ABAIXO do peso | Magreza .\n\n");
+  } else if(imc<=24.9){
+    printf("Está com peso NORMAL | Saudável.\n\n");
+  } else if(imc<=29.9){
+    printf("Está Levemente ACIMA do peso | Sobrepeso.\n");
+  } else if (imc<=34.9) {
+    printf("Está ACIMA do peso | Obesidade Grau I.\n\n");
+  } else if (imc<=39.9) {
+    printf("Está MUITO ACIMA do peso | Obesidade Grau II (Severa).\n\n");
+  } else { // imc 40++
+    printf("Está MUITÍSSIMO ACIMA do peso | Obesidade Grau III (Mórbida).\n\n");
+  }
 
   system("pause");
-  //agora vou dar push via Powershell
+
   return 0;
 }
