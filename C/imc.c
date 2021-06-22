@@ -16,5 +16,6 @@ int main(int argc, char const *argv[]) {
   printf("\nSeu IMC é: %.2f \n\n", imc);
 
   system("pause");
+  //agora vou dar push via Powershell
   return 0;
 }
