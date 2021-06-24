@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
   } else if(imc<=24.9){
     printf("Está com peso NORMAL | Saudável.\n\n");
   } else if(imc<=29.9){
-    printf("Está Levemente ACIMA do peso | Sobrepeso.\n");
+    printf("Está Levemente ACIMA do peso | Sobrepeso.\n\n");
   } else if (imc<=34.9) {
     printf("Está ACIMA do peso | Obesidade Grau I.\n\n");
   } else if (imc<=39.9) {
