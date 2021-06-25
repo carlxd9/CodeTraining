@@ -9,25 +9,24 @@
     <link rel="icon" href="Style\Calculator-red.ico">
   </head>
   <body>
-    <p>CALCULADORA PARA IMC</p>
+    <h2>CALCULADORA PARA IMC!</h2>
     <div class="calc1">
-      <p>Calculadora em HTML</p>
+      <p><b>Calculadora em HTML</b></p>
       <form class="" action="" method="post">
         <input type="number" id="peso" value="" placeholder="Insira o PESO aqui" title="Insira apenas números!"><br>
         <input type="number" id="altura" value="" placeholder="Insira a ALTURA aqui" title="Insira apenas números!"><br>
         <button type="button" onclick="imcHTML()" name="button">Calcular!</button>
       </form>
-      <label id="result"></label><br>
-      <label id="classificacao"></label><br>
+      <div class="resu">
+        <label id="result"></label><br>
+        <label id="classificacao"></label><br>
+      </div>
     </div>
 
-<!-- Calculadora Apenas em JavaScript -->
-
-    <div class="calc1">
-      <p>Calculadora em JavaScript</p>
-      <label>Aperte F12, veja o funcionamento no Console:</label>
+    <div class="calc1"> <!-- Calculadora Apenas em JavaScript -->
+      <p><b>Calculadora em JavaScript</b></p>
+      <label>Aperte F12, procure o <b><u>console</u></b> e veja o resultado!:</label>
       <button type="button" onclick="imcConsole()" name="button">INICIAR</button>
     </div>
-
   </body>
 </html>

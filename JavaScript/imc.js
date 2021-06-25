@@ -7,23 +7,23 @@ function imcHTML(){
 
   var imc = peso/(altura*altura);
 
-  document.getElementById('result').innerHTML = "Seu IMC é: " + imc.toFixed(2); //toFixed(2) limita os decimais para 2
+  document.getElementById('result').innerHTML = "Seu IMC é: <b><i>" + imc.toFixed(2) + "</i></b>!"; //toFixed(2) limita os decimais para 2
   let classifica;
   if (peso || alturaCm != "") {
     if (imc < 17) {
-      classifica = ">> Está MUITO ABAIXO do peso | Magreza Preocupante.";
+      classifica = "> Está MUITO ABAIXO do peso | Magreza Preocupante.";
     } else if (imc <= 18.49) {
-      classifica = ">> Está ABAIXO do peso | Magreza.";
+      classifica = "> Está ABAIXO do peso | Magreza.";
     } else if (imc <= 24.9) {
-      classifica = ">> Está com peso NORMAL | Peso Saudável.";
+      classifica = "> Está com peso NORMAL | Peso Saudável.";
     } else if (imc <= 29.9) {
-      classifica = ">> Está Levemente ACIMA do peso | Sobrepeso.";
+      classifica = "> Está Levemente ACIMA do peso | Sobrepeso.";
     } else if (imc <= 34.9) {
-      classifica = ">> Está ACIMA do peso | Obesidade Grau I.";
+      classifica = "> Está ACIMA do peso | Obesidade Grau I.";
     } else if (imc <= 39.9) {
-      classifica = ">> Está MUITO ACIMA do peso | Obesidade Grau II (Severa).";
+      classifica = "> Está MUITO ACIMA do peso | Obesidade Grau II (Severa).";
     } else { //40+
-      classifica = ">> Está MUITÍSSIMO ACIMA do peso | Obesidade Grau III (Mórbida).";
+      classifica = "> Está MUITÍSSIMO ACIMA do peso | Obesidade Grau III (Mórbida).";
     }
     document.getElementById('classificacao').innerHTML = classifica;
   } else {
