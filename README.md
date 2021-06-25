@@ -1,4 +1,4 @@
-A Training Page
+# A Training Page
 this is only a repository to store code.
 
 I'm creating a <a href="https://carlxd9.github.io/CodeTraining/" target="_blank">list</a> with some front-end programs to exercise my learnings. 
