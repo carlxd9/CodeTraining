@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta name="application-name" content="Calculadora IMC" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcudora de IMC</title>
+    <script src="..\JavaScript\imc.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Style\imc.css">
+    <link rel="icon" href="Style\Calculator-red.ico">
+  </head>
+  <body>
+    <p>CALCULADORA PARA IMC</p>
+    <div class="calc1">
+      <p>Calculadora em HTML</p>
+      <form class="" action="" method="post">
+        <input type="number" id="peso" value="" placeholder="Insira o PESO aqui" title="Insira apenas números!"><br>
+        <input type="number" id="altura" value="" placeholder="Insira a ALTURA aqui" title="Insira apenas números!"><br>
+        <button type="button" onclick="imcHTML()" name="button">Calcular!</button>
+      </form>
+      <label id="result"></label><br>
+      <label id="classificacao"></label><br>
+    </div>
+
+<!-- Calculadora Apenas em JavaScript -->
+
+    <div class="calc1">
+      <p>Calculadora em JavaScript</p>
+      <label>Aperte F12, veja o funcionamento no Console:</label>
+      <button type="button" onclick="imcConsole()" name="button">INICIAR</button>
+    </div>
+
+  </body>
+</html>
