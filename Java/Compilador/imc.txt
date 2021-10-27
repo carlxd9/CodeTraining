@@ -1,0 +1,54 @@
+inicio
+
+inte peso;
+double altura;
+double imc;
+inte i;
+inte k;
+chare nome;
+
+imprime("inicializando imc");
+para(i<-0;i<=4;i<++){
+    imprime(".");
+}
+
+abrelivro>>
+
+imprime("Primeiro digite seu Nome: ");
+ler(nome).chare;
+
+imprime("Agora o Peso: ");
+ler(peso).inte;
+
+imprime("Agora a Altura: ");
+ler(altura).double;
+
+imc <- peso/(altura*altura);
+
+se(imc<17) {
+    imprime("Magreza Preocupante!");
+  } senaoSe (imc<=18.49) {
+    imprime("Magreza");
+  } senaoSe(imc<=24.9){
+    imprime("Saudavel.");
+  } senaoSe(imc<=29.9){
+    imprime("Sobrepeso.");
+  } senaoSe (imc<=34.9) {
+    imprime("Obesidade Grau I.");
+  } senaoSe (imc<=39.9) {
+    imprime("Obesidade Grau II !");
+  } senao {
+    imprime("Obesidade Grau III !");
+  }
+imprime(nome + ", seu IMC eh: "+imc);
+imprime("finalizando IMC:");
+k <- 1;
+enquanto(k<=4){
+    imprime(".");
+    k<++;
+}
+
+fechalivro>>
+
+
+fim
