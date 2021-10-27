@@ -21,7 +21,8 @@ grun carlos init imc.txt //to read only the pseudo code
 ```
 
 > use carlos_grammar.g4 as reference to how the main grammar works.
-- --
+
 To save as .java just run the above command and add: ```>>Saida.java```
 It will save the new translated program as java file (the one you must delete if you need to compile again).
 > <i>The java file must be saved as "Saida.java" to run because the main class name is also called Saida.</i>
+- --
