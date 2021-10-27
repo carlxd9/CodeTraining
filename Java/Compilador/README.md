@@ -7,7 +7,7 @@ To compile any ANTLR4 grammar you'll need the batch files and the .jar binaries:
 - "antlr.bat", "grun.bat" in my case. (For binaries I'm using version 4.9.2, but you can get it <a href="https://www.antlr.org/download/antlr-4.9.2-complete.jar" target="_blank">here</a>). 
 > Any doubt about these you can check in  <a href="https://github.com/antlr/antlr4/blob/master/doc/getting-started.md#windows" target="_blank">ANTLR4 documentation</a>.
 
-###To run it in cmd/powershell:
+### To run it in cmd/powershell:
 ```
 antlr4 carlos.g4
 javac *.java
