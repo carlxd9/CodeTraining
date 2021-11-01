@@ -5,8 +5,7 @@ rifa = ['Regina','Débora','Tereza','Áurea','Elvira','Isabel','Margarida','Isau
 
 resultado = ['O','nome','escolhido','foi:']
 for i in resultado:
-    print(i, flush=True, end=' ')  # flush permite o end dentro do loop
-    # end=" " pra não pular linha depois de executar 
+    print(i, flush=True, end=' ')  # flush permite o end dentro do loop / end=" " pra não pular linha depois de executar 
     time.sleep(0.5)
 
 print("\n")
