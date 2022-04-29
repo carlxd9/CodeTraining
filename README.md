@@ -1,4 +1,4 @@
-# The Playground
+# Playground
 this is my repository to store code.
 
 There is a <a href="https://carlxd9.github.io/CodeTraining/" target="_blank">list</a> with some front-end programs I've made.
