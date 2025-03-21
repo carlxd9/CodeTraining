@@ -1,7 +1,7 @@
 # My Humble Playground
 this is my repository to store code.
 
-There is a <a href="https://carlxd9.github.io/CodeTraining/" target="_blank">list</a> (under develepment) with some front-end programs I've made so far.
+There is a <a href="https://carlxd9.github.io/CodeTraining/" target="_blank" rel="noopener noreferrer">list</a> (under develepment) with some front-end programs I've made so far.
 * There will be other back-end languages as well. 
 
 
